@@ -4,10 +4,10 @@ const path = require('path');
 
 module.exports = {
   // where our app "starts"
-  entry: './src/index.js',
+  entry: './src/say-hello.js',
   // where to put the transpiled javascript
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'main.js'
   },
 

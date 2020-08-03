@@ -4,7 +4,8 @@
   "description": "npm practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "build": "webpack",
   "repository": {
@@ -16,8 +17,6 @@
   "bugs": {
     "url": "https://github.com/Tommy-Cirilo/npm-exercises/issues"
   },
-  "build": "webpack",
-
   "homepage": "https://github.com/Tommy-Cirilo/npm-exercises#readme",
   "dependencies": {
     "@babel/core": "^7.11.0",
@@ -25,5 +24,8 @@
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
   }
 }
